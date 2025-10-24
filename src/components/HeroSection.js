@@ -1,6 +1,13 @@
 import React from 'react'
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Code, Trophy, Users, Zap } from "lucide-react";
 export default function HeroSection() {
+  const stats = [
+    { icon: Users, value: '500+', label: 'Participants' },
+    { icon: Trophy, value: '$10K', label: 'Prize Pool' },
+    { icon: Code, value: '24hrs', label: 'of Coding' },
+    { icon: Zap, value: '50+', label: 'Projects' }
+  ];
+
   return (
     <div>
       <div className="relative pt-9 z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -33,6 +40,16 @@ export default function HeroSection() {
             </button>
           </div>
       </div>
-    </div>
+
+        <div className="grid grid-cols-2 py-1 md:grid-cols-4 gap-6 mt-16 max-w-4xl mx-auto">
+            {stats.map((stat, idx) => (
+              <div key={idx} className="bg-slate-900/50 backdrop-blur border border-slate-800 rounded-xl p-6 hover:border-cyan-500/50 transition-all duration-300">
+                <stat.icon className="w-8 h-8 text-cyan-400 mx-auto mb-3" />
+                <div className="text-3xl font-bold text-white mb-1">{stat.value}</div>
+                <div className="text-sm text-gray-400">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+      </div>
   )
 }
