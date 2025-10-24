@@ -1,24 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
+import HeroSection from './components/HeroSection';
+import HeaderSection from './components/HeaderSection';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className="h-screen flex flex-col  bg-gradient-to-b from-indigo-900 to-black text-center text-white relative overflow-hidden">
+      <HeaderSection />
+      <HeroSection />
+    </section>
   );
 }
 
