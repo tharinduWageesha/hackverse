@@ -16,22 +16,13 @@ export default function HeaderSection() {
 
         <div>
           <ol className="flex space-x-10 text-white font-medium">
-            <li className="hover:text-cyan-400 cursor-pointer transition duration-300">
-              Home
-            </li>
-            <li className="hover:text-cyan-400 cursor-pointer transition duration-300">
-              About
-            </li>
-            <li className="hover:text-cyan-400 cursor-pointer transition duration-300">
-              Events
-            </li>
-            <li className="hover:text-cyan-400 cursor-pointer transition duration-300">
-              Sponsors
-            </li>
-            <li className="hover:text-cyan-400 cursor-pointer transition duration-300">
-              Contact
-            </li>
+            <li><a href="#home" className="hover:text-cyan-400 transition duration-300">Home</a></li>
+            <li><a href="#about" className="hover:text-cyan-400 transition duration-300">About</a></li>
+            <li><a href="#timeline" className="hover:text-cyan-400 transition duration-300">Timeline</a></li>
+            <li><a href="#tracks" className="hover:text-cyan-400 transition duration-300">Challenges</a></li>
+            <li><a href="#register" className="hover:text-cyan-400 transition duration-300">Register</a></li>
           </ol>
+
         </div>
       </div>
     </nav>

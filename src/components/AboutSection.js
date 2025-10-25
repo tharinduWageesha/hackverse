@@ -3,7 +3,7 @@ import { Code, Trophy, Users, Zap } from "lucide-react";
 
 function AboutSection() {
   return (
-    <div className="text-center mb-12 py-20 px-4">
+    <div className="text-center mb-12 py-20 px-4" id="about">
             <h2 className="text-4xl sm:text-5xl font-bold mb-4">
               <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
                 What is HackVerse'25 ?
@@ -44,7 +44,7 @@ function AboutSection() {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-white">Win Big</h3>
               <p className="text-gray-400 leading-relaxed">
-                Compete for a $10,000 prize pool, mentorship opportunities, and a chance to 
+                Compete for a LKR 50,000 prize pool, mentorship opportunities, and a chance to 
                 bring your project to life with our partners.
               </p>
             </div>

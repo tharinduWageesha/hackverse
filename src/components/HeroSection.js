@@ -9,11 +9,11 @@ export default function HeroSection() {
   ];
 
   return (
-    <div>
+    <div id="home">
       <div className="relative pt-9 z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="inline-block mb-6">
             <span className="px-4 py-2 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-cyan-400 text-sm font-medium">
-              January 15-16, 2025 • Virtual & In-Person
+              January 15-16, 2026 • Virtual & In-Person
             </span>
           </div>
           
@@ -31,11 +31,11 @@ export default function HeroSection() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg font-semibold text-white hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 flex items-center space-x-2">
+            <button className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg font-semibold text-white hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 flex items-center space-x-2" onClick={window.open.bind(window, 'https://forms.gle/89YtY6T7f8kX9r3B8', '_blank')}>
               <span>Register Now</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
-            <button className="px-8 py-4 border-2 border-gray-700 rounded-lg font-semibold text-white hover:border-cyan-500 hover:bg-cyan-500/10 transition-all duration-300">
+            <button className="px-8 py-4 border-2 border-gray-700 rounded-lg font-semibold text-white hover:border-cyan-500 hover:bg-cyan-500/10 transition-all duration-300" onClick={window.open.bind(window, '#timeline', '_self')}>
               View Schedule
             </button>
           </div>
