@@ -39,7 +39,7 @@ export default function
               <h4 className="font-semibold mb-4">Quick Links</h4>
               <div className="space-y-2">
                 {['About', 'Timeline', 'Challenges', 'Contact'].map((link) => (
-                  <a key={link} href="#" className="block text-gray-400 hover:text-cyan-400 transition-colors text-sm">
+                  <a key={link} href="#about" className="block text-gray-400 hover:text-cyan-400 transition-colors text-sm">
                     {link}
                   </a>
                 ))}
