@@ -37,19 +37,8 @@
  ┣ public/
  ┗ package.json
 
-🖥️ Run Locally
-# Clone the repository
-  git clone https://github.com/tharinduWageesha/hackverse.git
-# Navigate to the project folder
-  cd hackverse
-# Install dependencies
-  npm install
-# Run the project
-  npm start
 
 🧑‍💻 Developer
-  👋 Tharindu Wageesha
-  💼 Full Stack Developer
-  🎓 Undergraduate – University of Colombo School of Computing
+      👋 Tharindu Wageesha(Full Stack Developer, Undergraduate – University of Colombo School of Computing)
 
 
